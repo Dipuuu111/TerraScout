@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "frame_id": "replace_with_unique_sensor_frame_id",
+  "photo_id": "optional_matching_photo_id_from_sqlite",
+  "timestamp_utc": "replace_with_capture_timestamp_in_UTC",
+  "sensor_type": "lidar_2d",
+  "pose": {
+    "x_m": 0.0,
+    "y_m": 0.0,
+    "z_m": 0.0,
+    "yaw_deg": 0.0,
+    "pitch_deg": 0.0,
+    "roll_deg": 0.0,
+    "quality": "estimated",
+    "source": "replace_with_odom_imu_or_localization_source"
+  },
+  "range_scan": {
+    "angle_min_deg": -90.0,
+    "angle_increment_deg": 1.0,
+    "range_min_m": 0.1,
+    "range_max_m": 12.0,
+    "ranges_m": []
+  }
+}

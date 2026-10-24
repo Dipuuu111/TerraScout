@@ -1,0 +1,1126 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "created_at_utc": "2026-10-10T09:03:01+00:00",
+  "operator_mission": "Find large angular rocks while avoiding steep slopes and visible drop-offs",
+  "mission_spec": {
+    "objective_summary": "Locate and identify large angular rocks while prioritizing safe traversal",
+    "target_keywords": [
+      "large",
+      "angular",
+      "rock"
+    ],
+    "preferred_surface_materials": [
+      "rocky"
+    ],
+    "preferred_surface_profiles": [
+      "broken_rocky",
+      "uneven"
+    ],
+    "preferred_traversal_difficulty": [
+      "moderate_to_difficult",
+      "difficult"
+    ],
+    "avoid_conditions": [
+      {
+        "condition": "steep_slope",
+        "severity": "hard"
+      },
+      {
+        "condition": "clear_drop_off",
+        "severity": "hard"
+      }
+    ],
+    "priorities": [
+      "target_match",
+      "risk_avoidance",
+      "traversability"
+    ],
+    "operator_constraints": [
+      "avoid_steep_slopes",
+      "avoid_drop-offs"
+    ]
+  },
+  "deterministic_ranked_regions": [
+    {
+      "photo_id": "image6",
+      "source_path": "E:\\TerraScout\\data\\survey_images\\image6.jpg",
+      "analyzed_at_utc": "2026-10-10T08:21:16+00:00",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "score": 70.72,
+      "score_components": {
+        "target_keyword_hits": [
+          "large",
+          "angular",
+          "rock"
+        ],
+        "preferred_material_hits": [],
+        "preferred_profile_hits": [
+          "uneven"
+        ],
+        "preferred_traversal_hits": [],
+        "mean_object_confidence": 0.875,
+        "raw_match_score": 70.72,
+        "avoidance_penalty": 0.0
+      },
+      "avoidance_notes": [],
+      "hard_constraint_violations": [],
+      "eligible_for_priority": true,
+      "evidence": {
+        "surface_materials": [
+          "leaf litter and soil",
+          "stone steps/rocks",
+          "green vegetation overhanging ground"
+        ],
+        "surface_profile": "uneven",
+        "relative_rock_abundance": "moderate",
+        "apparent_roughness": "moderate",
+        "obstacle_distribution": "scattered",
+        "visual_traversal_difficulty": "moderate",
+        "visual_traversal_reason": "The dominant surface is a leaf-littered dirt path interrupted by scattered flat stone steps and small rocks, giving repeated but not continuous unevenness.",
+        "slope": {
+          "assessment": "gentle",
+          "direction": "uphill",
+          "reason": "The path rises away from the camera with visible step-like stone tiers ascending toward the background, indicating an uphill trail."
+        },
+        "drop_off": {
+          "assessment": "none_visible",
+          "reason": "No ledge, breakline, or abrupt descent is visible; the path appears continuous up the slope."
+        },
+        "observed_objects": [
+          {
+            "label": "large mossy boulder",
+            "description": "Large light-gray rock occupying the right side of the frame, with dark moss patches and rough weathered surface; large relative to this image.",
+            "confidence": 0.95,
+            "bounding_box_normalized": [
+              0.55,
+              0.12,
+              1.0,
+              0.75
+            ]
+          },
+          {
+            "label": "stone step cluster (mid-path)",
+            "description": "Flat gray slab stones forming step-like tiers across the trail in the middle of the scene.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.3,
+              0.6,
+              0.65,
+              0.78
+            ]
+          },
+          {
+            "label": "lower stone steps",
+            "description": "Scattered flat stones and rock fragments embedded in the dirt path in the foreground.",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.1,
+              0.72,
+              0.6,
+              0.95
+            ]
+          },
+          {
+            "label": "leaf litter patch",
+            "description": "Brown dry leaves covering sections of the path surface, especially lower center and left.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.05,
+              0.75,
+              0.55,
+              1.0
+            ]
+          },
+          {
+            "label": "tree trunk",
+            "description": "Slender dark tree trunk rising through the center of the scene among dense foliage.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.5,
+              0.0,
+              0.62,
+              0.55
+            ]
+          },
+          {
+            "label": "dense green undergrowth",
+            "description": "Thick leafy shrubs and small trees lining both sides of the trail, partially overhanging the path.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.0,
+              0.0,
+              0.55,
+              0.7
+            ]
+          }
+        ],
+        "uncertainties": [
+          "No scale reference; absolute sizes, step heights, and rover clearance cannot be determined from the image.",
+          "Ground beneath dense vegetation and behind the boulder is occluded; obstacle coverage beyond the visible path is unknown.",
+          "Slope magnitude is estimated from step tiers and path perspective; exact incline angle is unknown.",
+          "Image is dim and slightly soft; fine surface texture and traction-relevant details are hard to resolve.",
+          "Material composition of stones and soil is not verifiable from the image."
+        ]
+      }
+    },
+    {
+      "photo_id": "image2",
+      "source_path": "E:\\TerraScout\\data\\survey_images\\image2.jpg",
+      "analyzed_at_utc": "2026-10-10T08:20:45+00:00",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "score": 70.22,
+      "score_components": {
+        "target_keyword_hits": [
+          "large",
+          "angular",
+          "rock"
+        ],
+        "preferred_material_hits": [],
+        "preferred_profile_hits": [
+          "uneven"
+        ],
+        "preferred_traversal_hits": [],
+        "mean_object_confidence": 0.812,
+        "raw_match_score": 70.22,
+        "avoidance_penalty": 0.0
+      },
+      "avoidance_notes": [],
+      "hard_constraint_violations": [],
+      "eligible_for_priority": true,
+      "evidence": {
+        "surface_materials": [
+          "fine gravel and crushed rock",
+          "dusty soil/sand between stones",
+          "larger angular and rounded stones"
+        ],
+        "surface_profile": "uneven",
+        "relative_rock_abundance": "high",
+        "apparent_roughness": "moderate",
+        "obstacle_distribution": "widespread",
+        "visual_traversal_difficulty": "moderate",
+        "visual_traversal_reason": "The dominant surface is loose fine gravel and dusty soil with stones of mixed sizes distributed across nearly the whole frame, giving frequent small-scale unevenness rather than continuous broken rock.",
+        "slope": {
+          "assessment": "nearly_flat",
+          "direction": "unknown",
+          "reason": "Stones rest in consistent contact with the ground and there is no visible breakline, horizon, or elevation change; the slight perspective gradient is consistent with camera pitch and cannot be distinguished from a very slight incline."
+        },
+        "drop_off": {
+          "assessment": "none_visible",
+          "reason": "No ledge, breakline, or terrain edge is visible anywhere in the frame; the ground continues as gravel to all image edges."
+        },
+        "observed_objects": [
+          {
+            "label": "large angular gray rock (center)",
+            "description": "Prominent blocky angular stone, medium-large relative to the image, light gray with rough surface.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.44,
+              0.42,
+              0.58,
+              0.62
+            ]
+          },
+          {
+            "label": "triangular flat rock (upper left)",
+            "description": "Flat triangular stone, medium relative to the image, pale gray, partially embedded.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.22,
+              0.02,
+              0.33,
+              0.13
+            ]
+          },
+          {
+            "label": "angular rock (upper center-left)",
+            "description": "Medium angular stone with flat faces, gray, sitting on gravel.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.31,
+              0.2,
+              0.42,
+              0.31
+            ]
+          },
+          {
+            "label": "rounded cobble cluster (right half)",
+            "description": "Dense cluster of rounded to sub-rounded cobbles and pebbles covering much of the right side of the frame.",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.55,
+              0.15,
+              1.0,
+              0.75
+            ]
+          },
+          {
+            "label": "large pale rock (lower center)",
+            "description": "Light gray blocky stone, medium-large relative to the image, rough weathered surface.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.5,
+              0.72,
+              0.65,
+              0.92
+            ]
+          },
+          {
+            "label": "rounded rock (lower left)",
+            "description": "Sub-rounded gray stone, medium relative to the image, partially buried in gravel.",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.15,
+              0.78,
+              0.28,
+              0.93
+            ]
+          },
+          {
+            "label": "fine gravel patch (center-left)",
+            "description": "Area of predominantly fine crushed gravel and dusty soil with sparse larger stones.",
+            "confidence": 0.75,
+            "bounding_box_normalized": [
+              0.05,
+              0.3,
+              0.4,
+              0.7
+            ]
+          },
+          {
+            "label": "gray cobble (right edge)",
+            "description": "Medium rounded gray stone near the right edge, partially cropped.",
+            "confidence": 0.7,
+            "bounding_box_normalized": [
+              0.9,
+              0.55,
+              1.0,
+              0.72
+            ]
+          }
+        ],
+        "uncertainties": [
+          "No scale reference is present; absolute stone sizes and rover clearance cannot be established from this image.",
+          "Loose gravel may be deeper than it appears; embedment of stones is not visible.",
+          "Slope direction cannot be distinguished from camera pitch because no horizon or elevation reference is visible.",
+          "Material composition of stones and soil is not determinable from the image."
+        ]
+      }
+    },
+    {
+      "photo_id": "image5",
+      "source_path": "E:\\TerraScout\\data\\survey_images\\image5.jpg",
+      "analyzed_at_utc": "2026-10-10T08:21:06+00:00",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "score": 69.68,
+      "score_components": {
+        "target_keyword_hits": [
+          "large",
+          "angular",
+          "rock"
+        ],
+        "preferred_material_hits": [],
+        "preferred_profile_hits": [
+          "uneven"
+        ],
+        "preferred_traversal_hits": [],
+        "mean_object_confidence": 0.744,
+        "raw_match_score": 69.68,
+        "avoidance_penalty": 0.0
+      },
+      "avoidance_notes": [],
+      "hard_constraint_violations": [],
+      "eligible_for_priority": true,
+      "evidence": {
+        "surface_materials": [
+          "sandy soil",
+          "pebbles and small gravel",
+          "cobbles",
+          "larger rocks"
+        ],
+        "surface_profile": "uneven",
+        "relative_rock_abundance": "moderate",
+        "apparent_roughness": "moderate",
+        "obstacle_distribution": "widespread",
+        "visual_traversal_difficulty": "moderate",
+        "visual_traversal_reason": "Sandy ground is interrupted by widespread pebbles, cobbles, and scattered larger rocks across most of the visible surface, giving repeated small-scale unevenness rather than continuous smooth ground.",
+        "slope": {
+          "assessment": "nearly_flat",
+          "direction": "level",
+          "reason": "The ground plane appears continuous with no visible breakline, descending surface, or horizon; stones rest in a consistent plane suggesting level, slightly textured ground."
+        },
+        "drop_off": {
+          "assessment": "none_visible",
+          "reason": "No ledge, breakline, or descending surface is visible; the ground continues to the image edges, though the frame is tightly cropped."
+        },
+        "observed_objects": [
+          {
+            "label": "dark rounded cobble (center-left)",
+            "description": "Dark, roughly spherical cobble partially embedded in sandy soil, medium relative to image.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.28,
+              0.38,
+              0.46,
+              0.52
+            ]
+          },
+          {
+            "label": "flat gray stone (center-right)",
+            "description": "Flat, angular gray stone with speckled surface, small-medium relative to image.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.6,
+              0.47,
+              0.78,
+              0.56
+            ]
+          },
+          {
+            "label": "elongated reddish stone",
+            "description": "Oval, elongated reddish-brown stone lying diagonally, small-medium relative to image.",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.62,
+              0.35,
+              0.75,
+              0.47
+            ]
+          },
+          {
+            "label": "gray angular rock cluster (right)",
+            "description": "Group of angular gray and dark stones clustered near right edge, small-medium sizes.",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.62,
+              0.5,
+              0.95,
+              0.62
+            ]
+          },
+          {
+            "label": "white/pale pebble patch",
+            "description": "Light-colored pale pebbles and fragments scattered near center, small sizes.",
+            "confidence": 0.7,
+            "bounding_box_normalized": [
+              0.4,
+              0.3,
+              0.62,
+              0.42
+            ]
+          },
+          {
+            "label": "large blurred rock (upper right)",
+            "description": "Out-of-focus large rock or boulder edge in background, apparent large size but scale uncertain.",
+            "confidence": 0.6,
+            "bounding_box_normalized": [
+              0.55,
+              0.0,
+              0.9,
+              0.12
+            ]
+          },
+          {
+            "label": "rounded pebble cluster (lower left)",
+            "description": "Smooth rounded pebbles in sandy matrix, blurred foreground, small-medium sizes.",
+            "confidence": 0.6,
+            "bounding_box_normalized": [
+              0.0,
+              0.72,
+              0.45,
+              0.95
+            ]
+          },
+          {
+            "label": "scattered gravel and pebbles (foreground)",
+            "description": "Mixed small pebbles, gravel, and sandy soil across lower frame; individual boundaries indistinct.",
+            "confidence": 0.7,
+            "bounding_box_normalized": [
+              0.1,
+              0.55,
+              0.9,
+              0.85
+            ]
+          }
+        ],
+        "uncertainties": [
+          "No scale reference; absolute sizes and rover clearance cannot be established",
+          "Shallow depth of field blurs foreground and background, limiting detail on those regions",
+          "Material composition of stones not determinable from image",
+          "Tight framing prevents assessment of terrain beyond the immediate ground patch"
+        ]
+      }
+    },
+    {
+      "photo_id": "image7",
+      "source_path": "E:\\TerraScout\\data\\survey_images\\image7.jpg",
+      "analyzed_at_utc": "2026-10-10T08:49:18+00:00",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "score": 66.85,
+      "score_components": {
+        "target_keyword_hits": [
+          "large",
+          "angular",
+          "rock"
+        ],
+        "preferred_material_hits": [],
+        "preferred_profile_hits": [],
+        "preferred_traversal_hits": [],
+        "mean_object_confidence": 0.887,
+        "raw_match_score": 66.85,
+        "avoidance_penalty": 0.0
+      },
+      "avoidance_notes": [],
+      "hard_constraint_violations": [],
+      "eligible_for_priority": true,
+      "evidence": {
+        "surface_materials": [
+          "reddish sandy soil",
+          "fine gravel and pebbles",
+          "angular rock fragments",
+          "larger scattered rocks"
+        ],
+        "surface_profile": "mixed",
+        "relative_rock_abundance": "moderate",
+        "apparent_roughness": "moderate",
+        "obstacle_distribution": "scattered",
+        "visual_traversal_difficulty": "easy_to_moderate",
+        "visual_traversal_reason": "The central corridor is smooth sandy ground with visible wheel tracks and only isolated rocks, while the right slope carries widespread gravel and angular fragments, giving generally even ground with intermittent obstacles.",
+        "slope": {
+          "assessment": "gentle",
+          "direction": "cross_slope",
+          "reason": "The right side rises as a gravelly incline and the left side falls toward a smooth sandy hollow, indicating a gentle cross-slope valley/ridge profile across the viewing direction; the distant plain appears level."
+        },
+        "drop_off": {
+          "assessment": "none_visible",
+          "reason": "No ledge, breakline, or abrupt descent is visible; the sandy hollow on the left appears as a gradual depression rather than a sharp edge."
+        },
+        "observed_objects": [
+          {
+            "label": "dark rounded boulder (foreground left)",
+            "description": "Medium-large dark gray rounded boulder resting on sandy soil, casting a shadow.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.05,
+              0.66,
+              0.14,
+              0.76
+            ]
+          },
+          {
+            "label": "gray boulder mid-left",
+            "description": "Medium rounded gray boulder on the sandy slope.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.08,
+              0.56,
+              0.13,
+              0.63
+            ]
+          },
+          {
+            "label": "rock cluster on left slope",
+            "description": "Group of small-to-medium dark and gray rocks scattered down the left sandy incline.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.0,
+              0.28,
+              0.2,
+              0.58
+            ]
+          },
+          {
+            "label": "curved wheel track",
+            "description": "Distinct tread-imprinted track curving through the smooth sand, evidence of prior vehicle passage.",
+            "confidence": 0.95,
+            "bounding_box_normalized": [
+              0.28,
+              0.33,
+              0.5,
+              0.68
+            ]
+          },
+          {
+            "label": "second track patch",
+            "description": "Darker tread-marked patch on sand to the right of center.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.52,
+              0.33,
+              0.68,
+              0.47
+            ]
+          },
+          {
+            "label": "gravelly rocky slope (right)",
+            "description": "Right-hand incline covered with abundant small angular fragments, pebbles, and tabular slabs.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.55,
+              0.2,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "label": "rocky outcrop (upper right)",
+            "description": "Cluster of larger dark angular rocks on the upper right ridge.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.85,
+              0.15,
+              1.0,
+              0.3
+            ]
+          },
+          {
+            "label": "distant mountain range",
+            "description": "Hazy pale ridgeline on the horizon beyond the flat plain.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.0,
+              0.2,
+              0.55,
+              0.3
+            ]
+          }
+        ],
+        "uncertainties": [
+          "No scale reference in image; absolute rock sizes and rover clearance cannot be established.",
+          "Material composition of rocks and soil is inferred from appearance only.",
+          "Depth of the left sandy hollow and whether its base is firm or soft sand is unknown.",
+          "Ground beyond the immediate foreground and behind the right ridge is occluded.",
+          "Slope magnitude is a visual estimate; exact incline angles cannot be measured from a single image."
+        ]
+      }
+    },
+    {
+      "photo_id": "image1",
+      "source_path": "E:\\TerraScout\\data\\survey_images\\image1.jpg",
+      "analyzed_at_utc": "2026-10-10T08:20:25+00:00",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "score": 66.7,
+      "score_components": {
+        "target_keyword_hits": [
+          "large",
+          "angular",
+          "rock"
+        ],
+        "preferred_material_hits": [],
+        "preferred_profile_hits": [],
+        "preferred_traversal_hits": [],
+        "mean_object_confidence": 0.869,
+        "raw_match_score": 66.7,
+        "avoidance_penalty": 0.0
+      },
+      "avoidance_notes": [],
+      "hard_constraint_violations": [],
+      "eligible_for_priority": true,
+      "evidence": {
+        "surface_materials": [
+          "fine sandy soil",
+          "pebbles and small gravel",
+          "rocks of varied sizes"
+        ],
+        "surface_profile": "mostly_smooth",
+        "relative_rock_abundance": "moderate",
+        "apparent_roughness": "low",
+        "obstacle_distribution": "scattered",
+        "visual_traversal_difficulty": "easy_to_moderate",
+        "visual_traversal_reason": "The dominant surface is fine sandy soil with scattered pebbles and isolated larger rocks; most ground is continuous and even, with obstacles interrupting only limited portions of the scene.",
+        "slope": {
+          "assessment": "nearly_flat",
+          "direction": "level",
+          "reason": "Rocks cast consistent shadows and the ground plane appears continuous with no visible breakline, horizon, or elevation change; only a slight perspective foreshortening toward the top of the frame, consistent with camera pitch rather than terrain incline."
+        },
+        "drop_off": {
+          "assessment": "none_visible",
+          "reason": "No ledge, breakline, or descending ground edge is visible anywhere in the frame; the sandy surface continues to the image borders."
+        },
+        "observed_objects": [
+          {
+            "label": "large gray-green pitted rock (foreground left)",
+            "description": "Large rough-textured rock with pitted/vesicular-looking surface, occupying lower-left foreground; apparent large size relative to image.",
+            "confidence": 0.95,
+            "bounding_box_normalized": [
+              0.0,
+              0.53,
+              0.42,
+              1.0
+            ]
+          },
+          {
+            "label": "reddish flat rock with light veins (left)",
+            "description": "Medium-large reddish-brown rock with thin pale linear veins, flat-topped, at left midground.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.0,
+              0.31,
+              0.28,
+              0.56
+            ]
+          },
+          {
+            "label": "layered slab rock (center)",
+            "description": "Elongated gray rock with visible horizontal layering/stratification, center of frame.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.43,
+              0.24,
+              0.6,
+              0.38
+            ]
+          },
+          {
+            "label": "large gray blocky rock (right)",
+            "description": "Large angular gray rock on right side, rough surface.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.78,
+              0.21,
+              0.95,
+              0.36
+            ]
+          },
+          {
+            "label": "pale angular rock (lower right)",
+            "description": "Medium gray angular rock with flat faces, lower right area.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.61,
+              0.64,
+              0.8,
+              0.87
+            ]
+          },
+          {
+            "label": "pale cream rock fragment (right)",
+            "description": "Small light-colored irregular rock fragment right of center.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.78,
+              0.51,
+              0.87,
+              0.62
+            ]
+          },
+          {
+            "label": "gray rounded rock (upper center)",
+            "description": "Medium gray rounded rock near top center.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.52,
+              0.17,
+              0.63,
+              0.26
+            ]
+          },
+          {
+            "label": "orange soil patch (center)",
+            "description": "Small patch of brighter orange fine material among pebbles near center; possibly disturbed or different soil, composition unknown.",
+            "confidence": 0.7,
+            "bounding_box_normalized": [
+              0.4,
+              0.53,
+              0.52,
+              0.62
+            ]
+          }
+        ],
+        "uncertainties": [
+          "No scale reference; absolute rock sizes and rover clearance cannot be established from this image.",
+          "Material composition of rocks and soils is not determinable from visual appearance alone.",
+          "Ground beyond the frame edges and beneath foreground rocks is occluded; nearby obstacles outside view are unknown.",
+          "The orange soil patch's nature (disturbed soil vs. different material) is uncertain.",
+          "Slope estimate relies on shadow and ground-continuity cues only; small local relief cannot be ruled out."
+        ]
+      }
+    },
+    {
+      "photo_id": "image3",
+      "source_path": "E:\\TerraScout\\data\\survey_images\\image3.jpg",
+      "analyzed_at_utc": "2026-10-10T08:20:51+00:00",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "score": 66.29,
+      "score_components": {
+        "target_keyword_hits": [
+          "large",
+          "angular",
+          "rock"
+        ],
+        "preferred_material_hits": [],
+        "preferred_profile_hits": [],
+        "preferred_traversal_hits": [],
+        "mean_object_confidence": 0.817,
+        "raw_match_score": 66.29,
+        "avoidance_penalty": 0.0
+      },
+      "avoidance_notes": [],
+      "hard_constraint_violations": [],
+      "eligible_for_priority": true,
+      "evidence": {
+        "surface_materials": [
+          "fine sand/dust",
+          "small gravel/pebbles",
+          "scattered rocks"
+        ],
+        "surface_profile": "gently_uneven",
+        "relative_rock_abundance": "moderate",
+        "apparent_roughness": "moderate",
+        "obstacle_distribution": "scattered",
+        "visual_traversal_difficulty": "easy_to_moderate",
+        "visual_traversal_reason": "Predominantly fine-grained, fairly continuous ground with scattered pebbles and isolated small-to-medium rocks interrupting portions of the surface.",
+        "slope": {
+          "assessment": "nearly_flat",
+          "direction": "level",
+          "reason": "Ground texture and rock shadows show a broadly level ground plane with no visible breakline or consistent incline; slight apparent tilt likely reflects camera pitch."
+        },
+        "drop_off": {
+          "assessment": "none_visible",
+          "reason": "No ledge, breakline, or descending edge is visible; ground continues to image edges."
+        },
+        "observed_objects": [
+          {
+            "label": "large angular rock cluster (upper left)",
+            "description": "Cluster of angular light-toned rocks, medium-large relative to image, casting shadows.",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.15,
+              0.05,
+              0.4,
+              0.25
+            ]
+          },
+          {
+            "label": "prominent isolated rock (center)",
+            "description": "Medium angular rock with visible shadow, standing proud of surrounding fine ground.",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.42,
+              0.35,
+              0.53,
+              0.45
+            ]
+          },
+          {
+            "label": "dark angular rock (lower left)",
+            "description": "Small dark rock among pebbles on fine ground.",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.2,
+              0.62,
+              0.28,
+              0.68
+            ]
+          },
+          {
+            "label": "light-toned flat fragments (mid-right)",
+            "description": "Scattered pale, flat-lying rock fragments over fine sediment.",
+            "confidence": 0.7,
+            "bounding_box_normalized": [
+              0.6,
+              0.45,
+              0.85,
+              0.6
+            ]
+          },
+          {
+            "label": "rocky patch (upper right)",
+            "description": "Concentration of small-to-medium rocks and gravel on slightly raised-looking ground.",
+            "confidence": 0.7,
+            "bounding_box_normalized": [
+              0.6,
+              0.15,
+              0.95,
+              0.35
+            ]
+          },
+          {
+            "label": "rover wheel and hardware (foreground)",
+            "description": "Part of the imaging vehicle: treaded wheel, cables, and mechanical components occupying lower right.",
+            "confidence": 0.95,
+            "bounding_box_normalized": [
+              0.38,
+              0.55,
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "uncertainties": [
+          "No scale reference for absolute rock sizes or rover clearance beyond the visible wheel",
+          "Fine material compaction/traction properties not assessable from image",
+          "Ground beyond image edges not visible; slope and drop-off judged only from visible area",
+          "Monochrome image limits color/material discrimination"
+        ]
+      }
+    },
+    {
+      "photo_id": "image4",
+      "source_path": "E:\\TerraScout\\data\\survey_images\\image4.jpg",
+      "analyzed_at_utc": "2026-10-10T08:20:57+00:00",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "score": 66.2,
+      "score_components": {
+        "target_keyword_hits": [
+          "large",
+          "angular",
+          "rock"
+        ],
+        "preferred_material_hits": [],
+        "preferred_profile_hits": [],
+        "preferred_traversal_hits": [],
+        "mean_object_confidence": 0.806,
+        "raw_match_score": 66.2,
+        "avoidance_penalty": 0.0
+      },
+      "avoidance_notes": [],
+      "hard_constraint_violations": [],
+      "eligible_for_priority": true,
+      "evidence": {
+        "surface_materials": [
+          "sand",
+          "gravel",
+          "rocks"
+        ],
+        "surface_profile": "gently_uneven",
+        "relative_rock_abundance": "moderate",
+        "apparent_roughness": "moderate",
+        "obstacle_distribution": "scattered",
+        "visual_traversal_difficulty": "moderate",
+        "visual_traversal_reason": "Sandy rippled ground dominates, but rocks and pebbles are scattered across much of the scene, interrupting substantial portions of the otherwise even surface.",
+        "slope": {
+          "assessment": "nearly_flat",
+          "direction": "level",
+          "reason": "Ground appears continuous with no visible breakline or descending surface; slight textural variation suggests minor undulation rather than a clear incline."
+        },
+        "drop_off": {
+          "assessment": "none_visible",
+          "reason": "No ledge, breakline, or terrain edge is visible; ground appears continuous to the image edges."
+        },
+        "observed_objects": [
+          {
+            "label": "large light-toned angular rock",
+            "description": "Prominent light-colored angular block in lower-center foreground, medium-large relative to image",
+            "confidence": 0.9,
+            "bounding_box_normalized": [
+              0.31,
+              0.62,
+              0.42,
+              0.75
+            ]
+          },
+          {
+            "label": "layered flat rock",
+            "description": "Flat slab with visible layering, left-center, small-medium relative to image",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.2,
+              0.47,
+              0.28,
+              0.55
+            ]
+          },
+          {
+            "label": "layered slab rock",
+            "description": "Layered flat rock upper-left area, small-medium",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.19,
+              0.28,
+              0.29,
+              0.36
+            ]
+          },
+          {
+            "label": "dark gray rock cluster",
+            "description": "Dark gray angular rocks near top-left, small-medium",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.09,
+              0.05,
+              0.22,
+              0.13
+            ]
+          },
+          {
+            "label": "dark boulder",
+            "description": "Dark blocky rock upper-center, small-medium",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.48,
+              0.09,
+              0.58,
+              0.16
+            ]
+          },
+          {
+            "label": "dark angular rock",
+            "description": "Dark gray rock mid-right, small-medium",
+            "confidence": 0.8,
+            "bounding_box_normalized": [
+              0.67,
+              0.47,
+              0.75,
+              0.55
+            ]
+          },
+          {
+            "label": "foreground dark boulder",
+            "description": "Large dark rock at bottom edge, partially cropped",
+            "confidence": 0.7,
+            "bounding_box_normalized": [
+              0.63,
+              0.92,
+              0.85,
+              1.0
+            ]
+          },
+          {
+            "label": "pebble and cobble field",
+            "description": "Numerous small rocks and pebbles scattered across sandy ground, individual boundaries indistinct",
+            "confidence": 0.85,
+            "bounding_box_normalized": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ],
+        "uncertainties": [
+          "No scale reference; absolute rock sizes and rover clearance cannot be established",
+          "Material composition of rocks and sand not determinable from image",
+          "Ripple texture in foreground sand may affect traction but depth is unknown",
+          "Far-field rocks partially blurred; some may be merged in the pebble-field cluster"
+        ]
+      }
+    }
+  ],
+  "plan": {
+    "mission_title": "Large Angular Rock Survey",
+    "mission_summary": "Identify and prioritize images containing large angular rocks while avoiding steep slopes and drop-offs, based on deterministic ranking scores and visual evidence analysis.",
+    "status": "ready_for_survey_review",
+    "selected_regions": [
+      {
+        "photo_id": "image6",
+        "purpose": "Target match and traversability assessment",
+        "reason": "Highest score (70.72) with large, angular, rock keyword hits; uneven surface profile; gentle uphill slope; no visible drop-offs; observed large mossy boulder and stone step clusters matching target keywords."
+      },
+      {
+        "photo_id": "image2",
+        "purpose": "Target match and rock abundance assessment",
+        "reason": "Strong score (70.22) with large, angular, rock keyword hits; high relative rock abundance; uneven profile; observed large angular gray rock at center and multiple angular rock fragments."
+      },
+      {
+        "photo_id": "image5",
+        "purpose": "Target match and surface composition assessment",
+        "reason": "Score 69.68 with large, angular, rock keyword hits; moderate rock abundance; uneven profile; observed gray angular rock cluster near right edge and large pale rock in lower center."
+      },
+      {
+        "photo_id": "image7",
+        "purpose": "Target match and traversability context",
+        "reason": "Score 66.85 with large, angular, rock keyword hits; moderate rock abundance; gentle cross-slope; observed rocky outcrop with larger dark angular rocks on upper right ridge."
+      },
+      {
+        "photo_id": "image1",
+        "purpose": "Target match and rock diversity assessment",
+        "reason": "Score 66.7 with large, angular, rock keyword hits; moderate rock abundance; mostly smooth profile; observed large gray blocky rock on right side and large angular rock cluster in upper left."
+      }
+    ],
+    "search_strategy": [
+      {
+        "step": 1,
+        "action": "Inspect image6 for large angular rock details and slope verification",
+        "based_on_photo_ids": [
+          "image6"
+        ],
+        "why": "Highest ranked image with confirmed large angular rock observations and gentle traversable slope; verify rock size and slope angle before prioritizing.",
+        "completion_condition": ""
+      },
+      {
+        "step": 2,
+        "action": "Inspect image2 for angular rock distribution and gravel context",
+        "based_on_photo_ids": [
+          "image2"
+        ],
+        "why": "Second-highest score with high rock abundance and multiple angular rock observations; assess rock sizes and gravel embedment risks.",
+        "completion_condition": ""
+      },
+      {
+        "step": 3,
+        "action": "Inspect image5 for angular rock cluster verification and soil interaction",
+        "based_on_photo_ids": [
+          "image5"
+        ],
+        "why": "Third-ranked image with angular rock cluster observations; evaluate rock embedment in sandy soil and traversability implications.",
+        "completion_condition": ""
+      },
+      {
+        "step": 4,
+        "action": "Inspect image7 for rocky outcrop details and cross-slope traversability",
+        "based_on_photo_ids": [
+          "image7"
+        ],
+        "why": "Fourth-ranked image with rocky outcrop observations; assess cross-slope navigation feasibility around angular rock concentrations.",
+        "completion_condition": ""
+      },
+      {
+        "step": 5,
+        "action": "Inspect image1 for large rock identification and surface smoothness confirmation",
+        "based_on_photo_ids": [
+          "image1"
+        ],
+        "why": "Fifth-ranked image with large blocky rock observations; confirm angularity and assess smooth traversability on mostly flat surface.",
+        "completion_condition": ""
+      }
+    ],
+    "replan_triggers": [
+      "If any image reveals steep slopes or drop-offs not previously identified in avoidance_notes",
+      "If observed rocks are confirmed smaller than 'large' threshold via higher-resolution imaging",
+      "If slope assessments prove inconsistent with gentle terrain classifications",
+      "If new images with higher rock abundance or better angularity characteristics are acquired"
+    ],
+    "uncertainties": [
+      "No scale reference in any image; absolute rock sizes and rover clearance cannot be established from 2D observations alone",
+      "Slope magnitude is visually estimated; exact incline angles unknown across all images",
+      "Ground beneath dense vegetation and behind rocks is occluded; obstacle coverage beyond visible path is unknown",
+      "Material composition of stones is not verifiable from image appearance",
+      "Loose gravel may be deeper than it appears; embedment of stones is not visible",
+      "Image quality varies (dim/soft focus, tight cropping) limiting detail resolution on surface textures"
+    ],
+    "operator_questions": [
+      "What is the minimum rock size threshold considered 'large' for this mission?",
+      "Are there specific angularity criteria (face count, sharpness) beyond keyword matching?",
+      "Should rock abundance weight higher than traversability smoothness in region selection?",
+      "Is cross-slope navigation acceptable or should only near-flat terrain be prioritized?",
+      "What is the acceptable risk level for moderate traversability difficulty ratings?",
+      "Are there specific drop-off definitions beyond 'visible ledge or breakline'?"
+    ],
+    "navigation_readiness_reason": "At least one stored observation lacks trusted latitude/longitude. This module does not compute a physical route or issue movement commands; coordinates alone are insufficient to establish a safe path.",
+    "georeferenced_observations_available": false,
+    "physical_route_computable": false,
+    "movement_commands_emitted": false
+  }
+}
